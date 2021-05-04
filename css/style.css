@@ -1,0 +1,102 @@
+body{
+  margin: 0 auto;
+  font-size: 16px;
+  max-width: 1350px;
+  background: linear-gradient(0deg, rgba(0,0,0,.6), rgba(0,0,0, 0.3));
+
+  }
+.column {
+ float: left;
+ width: 70%;
+}
+.columns img{
+  margin-top: 20px;
+  width: 364px;
+
+}
+.Air{
+  margin-left: 30px;
+}
+#city{
+  font-size: 20px;
+}
+#indexAir{
+  font-size: 50px;
+}
+#Risk{
+  font-size: 25px;
+}
+.header{
+  background: #4D4D4D;
+  padding: 5px 2px;
+}
+@media (max-width: 768px) {
+  .header{
+    margin: 0 30px;
+  }
+}
+h2 {color:white;}
+
+.insert{
+  margin-top: 30px;
+  margin-left: 30px;
+  }
+
+.aqi{
+  display:block;
+  width:300px;
+  height:250px;
+  margin-left: 30%;
+  margin-top: 70px;
+}
+@media (max-width: 768px) {
+  .aqi{
+    display:block;
+    width:200px;
+    height:150px;
+    margin-left: 10%;
+    margin-top: 70px;
+  }
+  #city{
+    font-size: 18px;
+  }
+  #indexAir{
+    font-size: 20px;
+  }
+  #Risk{
+    font-size: 19px;
+  }
+}
+
+ .info{
+   display:block;
+   width:250px;
+   height:150px;
+   margin-left: 30%;
+
+ }
+ @media (max-width: 768px) {
+   .info{
+     margin-left: 10%;
+   }
+ }
+ #map {
+   width: 364px;
+   height: 250px;
+   color:white;
+ }
+ @media (max-width: 768px) {
+   #map {
+     width: 300px;
+     height: 200px;
+     margin: 30px 20px;
+     margin-bottom: 100px;
+   }
+ }
+
+ .footer{
+   margin-top: 100px;
+   background: #4D4D4D;
+   padding: 5px 0;
+   color:white;
+ }
