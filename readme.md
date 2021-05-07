@@ -2,7 +2,7 @@
 
 ### link dove è possibile trovare l'applicazione
 
-condescending-goldstine-b0cb28.netlify.app
+https://happy-brown-c25f00.netlify.app
 
 ***
 
